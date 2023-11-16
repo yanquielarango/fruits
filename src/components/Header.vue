@@ -36,7 +36,7 @@ const toggleMenu = () => {
     
     <nav class="nav container">
       <a href="#" class="nav__logo">
-        <img src="../assets/logo.png" alt="" /> Fruit
+        <img src="@/assets/logo.png" alt="" /> Fruit
       </a>
 
       <div class="nav__menu" :class="{show: menu}" id="nav-menu">
@@ -61,8 +61,8 @@ const toggleMenu = () => {
         </div>
 
        
-      <img src="../assets/branch-2.png" alt="" class="nav__img-1"/>
-      <img src="../assets/fruit-line-1.png" alt="" class="nav__img-2"/>
+      <img src="@/assets/branch-2.png" alt="" class="nav__img-1"/>
+      <img src="@/assets/fruit-line-1.png" alt="" class="nav__img-2"/>
 
       </div>
 

@@ -1,4 +1,6 @@
 <script setup>
+import Enjoy from './Enjoy.vue';
+
   
 </script>
 
@@ -33,6 +35,8 @@
 
       <img src="@/assets/branch-2.png" alt="image" class="home__branch" />
     </section>
+
+    <Enjoy/>
     
   </main>
 </template>
